@@ -2,8 +2,8 @@
 
 ![App Screenshot](https://github.com/firengizz099/PCA/blob/main/pca.png?raw=true)
 
-Bu Python kodu, bir veri kümesini kullanarak temel bileşen analizi (PCA) ile boyutsal azaltma uygulamak ve sonrasında PCA uygulanmış ve uygulanmamış veri kümeleri üzerinde lojistik regresyon sınıflandırma modelini eğitmek ve sonuçları karşılaştırmak. 
-**Kodun ayrıntılı açıklaması:**
+**Bu Python kodu, bir veri kümesini kullanarak temel bileşen analizi (PCA) ile boyutsal azaltma uygulamak ve sonrasında PCA uygulanmış ve uygulanmamış veri kümeleri üzerinde lojistik regresyon sınıflandırma modelini eğitmek ve sonuçları karşılaştırmak. 
+Kodun ayrıntılı açıklaması:*
 
     1. Gerekli kütüphanelerin içe aktarılması:
         ◦ numpy, sayısal işlemler için.
@@ -23,6 +23,6 @@ Bu Python kodu, bir veri kümesini kullanarak temel bileşen analizi (PCA) ile b
     8. PCA uygulanmamış veriler üzerinde lojistik regresyon sınıflandırma modelinin (classifier) oluşturulması ve eğitilmesi.
     9. PCA uygulanmış veriler üzerinde başka bir lojistik regresyon sınıflandırma modelinin (classifier2) oluşturulması ve eğitilmesi.
     10. Her iki model kullanılarak tahminlerin yapılması ve sonuçların y_pred ve y_pred2 içinde saklanması.
-    11. Her iki tahmin için ayrı ayrı karmaşıklık matrislerinin (confusion_matrix) hesaplanması ve ekrana yazdırılması.
+    11. Her iki tahmin için ayrı ayrı confusion_matrix matrislerinin  hesaplanması ve ekrana yazdırılması.
 
-Bu kod, veri boyutunu azaltmak için PCA'nın nasıl kullanılacağını ve PCA'nın sınıflandırma performansını nasıl etkileyebileceğini göstermek için kullanılıyor. Ayrıca, PCA uygulanmış ve uygulanmamış veriler arasındaki farkı incelemek için karmaşıklık matrisleri kullanıyor.
+**Bu kod, veri boyutunu azaltmak için PCA'nın nasıl kullanılacağını ve PCA'nın sınıflandırma performansını nasıl etkileyebileceğini göstermek için kullanılıyor. Ayrıca, PCA uygulanmış ve uygulanmamış veriler arasındaki farkı incelemek için confusion_matrix matrisleri kullanıyor.**
