@@ -3,7 +3,7 @@
 ![App Screenshot](https://github.com/firengizz099/PCA/blob/main/pca.png?raw=true)
 
 **Bu Python kodu, bir veri kümesini kullanarak temel bileşen analizi (PCA) ile boyutsal azaltma uygulamak ve sonrasında PCA uygulanmış ve uygulanmamış veri kümeleri üzerinde lojistik regresyon sınıflandırma modelini eğitmek ve sonuçları karşılaştırmak. 
-Kodun ayrıntılı açıklaması:*
+Kodun ayrıntılı açıklaması:**
 
     1. Gerekli kütüphanelerin içe aktarılması:
         ◦ numpy, sayısal işlemler için.
